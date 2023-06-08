@@ -99,7 +99,7 @@ void main(List<String> arguments) {
     } else {
       print("Energia esgotada!");
     }
-  } */ // PAPOCOU A IDE
+  } */ // PAPOCOU A IDE, não descomente.
 
   // print("Olá mundo!");
 }
