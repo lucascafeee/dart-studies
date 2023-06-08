@@ -34,6 +34,7 @@ void main(List<String> arguments) {
   String nome = "Lucas";
   String sobrenome = "Café";
   String completeName = nome + sobrenome;
+  int energy = 0;
 
   // String Name1 = "Breno";
   // String Name2 = "Renan";
@@ -73,7 +74,7 @@ void main(List<String> arguments) {
   print(listNames.hashCode);
   print(points);
 
-  // IF ELSE
+  // Laços de repetição.
   if (Inteligente == true) {
     print("Parabens, você é inteligente!");
   } else {
@@ -85,6 +86,20 @@ void main(List<String> arguments) {
         nome +
         sobrenome); // fica estranho nesse print, pode usar o $ dentro da string!!!!
   }
+
+  for (var i = 0; i < 20; i++) {
+    print("Esse print foi repetido esse tanto de vezes:");
+    print(i);
+  }
+
+  /*while (energy > 0) {
+    if (energy > 0) {
+      print("Usando energia");
+      energy = energy - 1000
+    } else {
+      print("Energia esgotada!");
+    }
+  } */ // PAPOCOU A IDE
 
   // print("Olá mundo!");
 }
